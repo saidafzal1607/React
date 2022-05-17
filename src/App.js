@@ -1,29 +1,25 @@
-import { ThemeProvider } from 'styled-components';
-import Content from './Content';
-import Footer from './Footer';
-import Header from './Header';
-import GlobalStyles from './style/Global.styled';
+// import { useState } from 'react'
 
-const theme = {
-  colors:{
-    header:'blue',
-    main:'green',
-    footer:'yellow'
-  }
-}
+import GlobalStyles from "./styles/Global.styled";
+import Table from "./Table";
+import './App.css';
 
 function App() {
+
+
+
+  
+
   
 
   return (
     <div className="App">
-      <ThemeProvider theme={theme} >
-        <GlobalStyles/>
-        <Header/>
-        <Content/>
-        <Footer/>
+      <GlobalStyles/>
+      <h1  className="title">List of Movies</h1>
+      <Table/>
 
-      </ThemeProvider>
+
+
     </div>
   );
 }
