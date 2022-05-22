@@ -1,6 +1,15 @@
-.title{
-    margin-top: 45px;
-    font-size: 48px;
-    text-align: center;
-    color: crimson;
+body{
+    font-size: 25px;
+}
+
+li{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+input[type="checkbox"]{
+    height: 35px;
+    width: 35px;
 }
